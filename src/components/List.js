@@ -15,6 +15,7 @@ export class List extends Component {
     this.$listContainer.className = 'donates-container__donates';
 
     this.$rootElement.appendChild(this.$listContainer);
+
   }
 
   addItem(item) {
